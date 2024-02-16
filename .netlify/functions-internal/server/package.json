@@ -1,0 +1,23 @@
+{
+  "name": "server-prod",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@netlify/functions": "2.6.0",
+    "abort-controller": "3.0.0",
+    "agentkeepalive": "4.5.0",
+    "event-target-shim": "5.0.1",
+    "form-data-encoder": "1.7.2",
+    "formdata-node": "4.4.1",
+    "humanize-ms": "1.2.1",
+    "ms": "2.1.2",
+    "node-domexception": "1.0.0",
+    "node-fetch": "2.7.0",
+    "openai": "4.28.0",
+    "tr46": "0.0.3",
+    "web-streams-polyfill": "3.3.2",
+    "webidl-conversions": "3.0.1",
+    "whatwg-url": "5.0.0"
+  }
+}
