@@ -1,6 +1,7 @@
 //https://nitro.unjs.io/config
 export default defineNitroConfig({
+  preset: 'netlify',
   runtimeConfig: {
-    apiToken: process.env.API_KEY,
+    apiToken: process.env.NITRO_API_TOKEN,
   },
 });
